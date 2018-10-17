@@ -5,7 +5,7 @@ public abstract class Shape {
         this.type = type;
     }
     public abstract double getArea();
-    public abstract double getPerimiter();
+    public abstract double getPerimeter();
     public String toString()
     {
         return "I am" + type +".";
