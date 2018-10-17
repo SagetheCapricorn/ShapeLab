@@ -9,7 +9,7 @@ public class Circle extends Shape {
     {
         return Math.PI*(radius*radius);
     }
-    public double getCircumfrence()
+    public double getPerimeter()
     {
        return Math.PI*radius*2;
     }
