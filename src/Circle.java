@@ -1,17 +1,17 @@
 public class Circle extends Shape {
     private int radius;
-    public Cirlce(int radius)
+    public Circle(int radius)
     {
-        super(type:"Circle");
+        super("Circle");
         this.radius = radius;
     }
     public double getArea()
     {
-        return
+        return Math.PI*(radius*radius);
     }
     public double getCircumfrence()
     {
-       return
+       return Math.PI*radius*2;
     }
 
 }
