@@ -9,16 +9,16 @@ public class Runner {
 
 
         System.out.println(shape3);
-        System.out.println("My perimeter is: " + shape3.getPerimeter());
-        System.out.println("My Area is" +shape3.getArea());
+        System.out.println("My perimeter is : " + shape3.getPerimeter());
+        System.out.println("My Area is : " +shape3.getArea());
 
         Shape [] shapes = {shape1,shape2, shape3, shape4};
 
         for (Shape cur : shapes)
         {
             System.out.println(cur);
-            System.out.println("My area is: " + cur.getArea());
-            System.out.println("My Perimeter is: " + cur.getPerimeter());
+            System.out.println("My area is : " + cur.getArea());
+            System.out.println("My Perimeter is : " + cur.getPerimeter());
         }
     }
 }
