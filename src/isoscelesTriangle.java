@@ -10,7 +10,7 @@
             this.height = height;
         }
         public double getPerimeter(){
-            return(2*(side+base));
+            return((2*side)+base);
         }
         public double getArea() {
             return ((base*height)/2);
