@@ -7,14 +7,15 @@ public class Runner {
         Shape shape3= new Circle(10);
         Shape shape4= new Hexagon(10);
         Shape shape5= new Trapezoid(2,3,14,12);
-        Shape shape6= new isoscelesTriangle(2,3,4);
+        Shape shape8= new Ellipse(23,24);
+        Shape shape7= new isoscelesTriangle(12,13,14);
 
 
         System.out.println(shape3);
         System.out.println("My perimeter is : " + shape3.getPerimeter());
         System.out.println("My Area is : " +shape3.getArea());
 
-        Shape [] shapes = {shape1,shape2, shape3, shape4, shape5, shape6};
+        Shape [] shapes = {shape1,shape2, shape3, shape4, shape5, shape7, shape8};
 
         for (Shape cur : shapes)
         {
