@@ -1,6 +1,10 @@
 public class Hexagon extends Shape{
     private int side;
 
+    /**
+     * This code creates the Hexagon shape.
+     * @param side this is the integer length of the side of the Hexagon.
+     */
     public  Hexagon(int side)
     {
         super("Hexagon");
