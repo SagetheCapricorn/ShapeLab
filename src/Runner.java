@@ -9,19 +9,20 @@ public class Runner {
         Shape shape5= new Trapezoid(2,3,14,12);
         Shape shape8= new Ellipse(23,24);
         Shape shape7= new isoscelesTriangle(12,13,14);
+        Shape shape9= new Square(4);
 
 
         System.out.println(shape3);
         System.out.println("My perimeter is : " + shape3.getPerimeter());
-        System.out.println("My Area is : " +shape3.getArea());
+        System.out.println("My area is : " +shape3.getArea());
 
-        Shape [] shapes = {shape1,shape2, shape3, shape4, shape5, shape7, shape8};
+        Shape [] shapes = {shape1,shape2, shape3, shape4, shape5, shape7, shape8, shape9};
 
         for (Shape cur : shapes)
         {
             System.out.println(cur);
             System.out.println("My area is : " + cur.getArea());
-            System.out.println("My Perimeter is : " + cur.getPerimeter());
+            System.out.println("My perimeter is : " + cur.getPerimeter());
         }
     }
 }
